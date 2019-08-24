@@ -45,11 +45,7 @@ end
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
   
-  if hash[key]
-    hash[key] = 35
-  else
-    nil 
-  end
+    hash[key]
   
 end
 
