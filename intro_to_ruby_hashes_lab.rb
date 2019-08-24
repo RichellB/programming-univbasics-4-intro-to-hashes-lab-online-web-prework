@@ -15,10 +15,10 @@ end
 
 def pioneer
   # return a hash with a key of :name and a corresponding value of 'Grace Hopper'"
-  pioneer_person = {
+  pioneer = {
     :name => "Grace Hopper"
   }
-  pioneer_person[:name]
+  pioneer[:name]
   
 end
 
@@ -63,4 +63,5 @@ def update_counting_hash(hash, key)
   else
     hash[key] = 1 
   end
+  hash[key]
 end
