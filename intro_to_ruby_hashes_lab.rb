@@ -6,14 +6,30 @@ end
 
 def my_hash
   # return a valid hash with any key/value pair of your choice
+  person = {
+    :name => "Richell"
+  }
+  person
+  
 end
 
 def pioneer
-  # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
+  # return a hash with a key of :name and a corresponding value of 'Grace Hopper'"
+  pioneer_person = {
+    :name => "Grace Hopper"
+  }
+  pioneer_person[:name]
+  
 end
 
 def id_generator
   # return a hash with a key :id assigned to positive integer
+  
+  id_hash = {
+    :id => 35
+  }
+  id_hash
+  
 end
 
 def my_hash_creator(key, value)
